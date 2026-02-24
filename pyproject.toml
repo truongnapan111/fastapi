@@ -1,0 +1,11 @@
+[tool.ruff]
+line-length = 88
+target-version = "py311"
+exclude = [
+    "venv",
+    "migrations/versions",
+]
+
+[tool.ruff.format]
+# Keep defaults; only rely on line-length and target-version.
+
